@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Informationpeat">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/bak1"
+        tools:context=".Studentinformation">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="280dp"
+            android:src="@drawable/peat1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="
+        \n      รหัส นศ. : 641102064111
+        \n
+        \n      ชื่อ : นายภัทร เที่ยงตรง
+        \n
+        \n      ชื่อ(Eng) : Mr.Phattara Thiangtrong
+        \n
+        \n      คณะ : วิทยาศาสตร์และเทคโนโลยี
+        \n
+        \n      สาขา : วิทยาการคอมพิวเตอร์
+        \n
+        \n      เข้าศึกษาเมื่อปี : 1/2564
+        \n  "
+
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+            <Button
+                android:id="@+id/btnstu1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="NextPage1"
+                android:text="ถัดไป"
+                android:textSize="15dp"
+                android:backgroundTint="#D2691E"
+                android:translationX="25dp"
+                android:translationY="10dp"/>
+            <Button
+                android:id="@+id/btnback01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="backPage3"
+                android:text="ย้อนกลับ"
+                android:textSize="15dp"
+                android:backgroundTint="#D2691E"
+                android:translationX="200dp"
+                android:translationY="10dp"
+                />
+
+            <Button
+                android:id="@+id/btnFb2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Facebook"
+                android:backgroundTint="#4682B4"
+                android:translationX="-35dp"
+                android:translationY="10dp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

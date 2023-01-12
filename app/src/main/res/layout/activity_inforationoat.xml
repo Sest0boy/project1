@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bak1"
+    tools:context=".Inforationoat">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="280dp"
+        android:src="@drawable/oat1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="      \n      รหัส นศ. : 641102064114    \n
+        \n      ชื่อ : ณัฐวุฒิ โพธิ์ศรีอง   \n
+        \n      ชื่อ(Eng) : Mr.Nutthawut Phosrithong    \n
+        \n      คณะ : วิทยาศาสตร์และเทคโนโลยี   \n
+        \n      สาขา : วิทยาการคอมพิวเตอร์  \n
+        \n      เข้าศึกษาเมื่อปี : 1/2564   \n
+"
+
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent">
+
+        <Button
+            android:id="@+id/btnback2"
+            android:layout_width="wrap_content"
+            android:layout_height="47dp"
+            android:onClick="backPage3"
+            android:text="ย้อนกลับ"
+            android:backgroundTint="#D2691E"
+            android:translationX="290dp"
+            android:translationY="10dp"/>
+
+        <Button
+            android:id="@+id/btnFb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Facebook"
+            android:backgroundTint="#4682B4"
+            android:translationX="50dp"
+            android:translationY="10dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
