@@ -13,6 +13,13 @@
         android:theme="@style/Theme.Projectt"
         tools:targetApi="31">
         <activity
+            android:name=".InformationMain"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".Inforlogin"
             android:exported="false">
             <meta-data
