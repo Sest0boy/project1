@@ -18,15 +18,24 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        TextView username =(TextView) findViewById(R.id.username);
+        TextView username =(TextView) findViewById(R.id.StdC);
         TextView password =(TextView) findViewById(R.id.password);
 
-        Button loginbtn = (Button) findViewById(R.id.loginbtn);
+        Button button = (Button) findViewById(R.id.loginbtn);
+
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(username.getText().toString().equals("641102064110") && password.getText().toString().equals("180946")){
+                    //correct
+                    Toast.makeText(MainActivity.this,"LOGIN SUCCESSFUL",Toast.LENGTH_SHORT).show();
+                    Intent intent = new Intent(getApplicationContext(), MainInformation.class);
+                    startActivity(intent);
+                }else
+                    //incorrect
+                    Toast.makeText(MainActivity.this,"LOGIN FAILED !!!",Toast.LENGTH_SHORT).show();
+            }
+        });
+    }
 
     }
-    public void NextPage2(View view){
-        Button button = (Button)findViewById(R.id.loginbtn);
-        Intent intent = new Intent(this, MainInformation.class);
-        startActivity(intent);
-    }
-}

@@ -32,10 +32,11 @@
             android:onClick="NextPage1"
             android:text="ข้อมูลนักศึกษา"
             android:textSize="18dp"
+            android:textColor="@color/black"
             android:backgroundTint="#FFA500"
             android:translationY="20dp"
             android:padding="10dp"
-            android:drawableLeft="@drawable/ic_baseline_person"
+            android:drawableLeft="@drawable/ic_baseline_person_24"
             />
 
         <Button
@@ -48,7 +49,8 @@
             android:backgroundTint="#FFA500"
             android:translationY="45dp"
             android:padding="10dp"
-            android:drawableLeft="@drawable/ic_baseline_menu_book"
+            android:textColor="@color/black"
+            android:drawableLeft="@drawable/ic_baseline_menu_book_24"
             />
 
 
@@ -61,7 +63,21 @@
             android:backgroundTint="#FFA500"
             android:translationY="70dp"
             android:padding="10dp"
+            android:textColor="@color/black"
             android:drawableLeft="@drawable/ic_baseline_email_24"/>
+
+        <Button
+            android:id="@+id/btnlogout"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:text="ล็อกเอ้าท์"
+            android:textSize="18dp"
+            android:backgroundTint="#FFA500"
+            android:translationY="96dp"
+            android:padding="10dp"
+            android:onClick="backPage3"
+            android:textColor="@color/black"
+            android:drawableLeft="@drawable/ic_baseline_logout_24"/>
 
     </LinearLayout>
 

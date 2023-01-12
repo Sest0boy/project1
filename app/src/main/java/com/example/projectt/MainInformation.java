@@ -41,4 +41,10 @@ public class MainInformation extends AppCompatActivity {
         Intent intent = new Intent(this, MainActivity2.class);
         startActivity(intent);
     }
+
+    public void backPage3(View view){
+        Button button = (Button)findViewById(R.id.btnback02);
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+    }
 }
