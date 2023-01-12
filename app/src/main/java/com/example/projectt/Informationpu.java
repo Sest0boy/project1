@@ -24,7 +24,7 @@ public class Informationpu extends AppCompatActivity {
     }
     public void backPage3(View view){
         Button button = (Button)findViewById(R.id.btnback02);
-        Intent intent = new Intent(this, MainActivity.class);
+        Intent intent = new Intent(this, MainInformation.class);
         startActivity(intent);
     }
 
