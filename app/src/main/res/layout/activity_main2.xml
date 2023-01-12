@@ -11,208 +11,222 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/logo1"
+        android:drawablePadding="20dp"
         android:text="
         \nตารางเรียน  2565/2
         \n"
         android:textColor="@color/black"
         android:textSize="22dp"
-        android:textStyle="bold"
-        android:drawableLeft="@drawable/logo1"
-        android:drawablePadding="20dp"
-        />
+        android:textStyle="bold" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_baseline_library_books_24"
+        android:drawablePadding="10dp"
         android:text=": GESC104 : สิ่งแวดล้อมและคุณภาพชีวิต"
         android:textColor="@color/black"
-        android:textSize="17dp"
-        android:drawablePadding="10dp"
-        android:drawableLeft="@drawable/ic_baseline_library_books_24"
-        />
+        android:textSize="17dp" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_baseline_access_time_filled_24"
+        android:drawablePadding="10dp"
         android:text=": 9.00 /12.00 / ห้อง 19701"
         android:textColor="@color/black"
-        android:textSize="19dp"
-        android:drawableLeft="@drawable/ic_baseline_access_time_filled_24"
-        android:drawablePadding="10dp"
-        />
+        android:textSize="19dp" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:drawablePadding="10dp"
         android:text=": อาจารย์ กัญญารัตน์ เดือนหงาย"
         android:textColor="@color/black"
-        android:textSize="19dp"
-        android:drawablePadding="10dp"
-        android:drawableLeft="@drawable/ic_baseline_person_24"
-        />
+        android:textSize="19dp" />
     --------------------------------------------------------------
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_baseline_library_books_24"
+        android:drawablePadding="10dp"
         android:text=": GESC102 : การจัดการเพื่อคุณภาพชีวิต"
         android:textColor="@color/black"
-        android:textSize="17dp"
-        android:drawablePadding="10dp"
-        android:drawableLeft="@drawable/ic_baseline_library_books_24"
-        />
+        android:textSize="17dp" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_baseline_access_time_filled_24"
+        android:drawablePadding="10dp"
         android:text=": จ./ 16.00/19.00 / ห้อง 14501"
         android:textColor="@color/black"
-        android:textSize="19dp"
-        android:drawablePadding="10dp"
-        android:drawableLeft="@drawable/ic_baseline_access_time_filled_24"
-        />
+        android:textSize="19dp" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:drawablePadding="10dp"
         android:text=": อาจารย์ ชัญญภัทร นกมั่น"
         android:textColor="@color/black"
-        android:textSize="19dp"
-        android:drawablePadding="10dp"
-        android:drawableLeft="@drawable/ic_baseline_person_24" />
+        android:textSize="19dp" />
 
     --------------------------------------------------------------
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_baseline_library_books_24"
+        android:drawablePadding="10dp"
         android:text=": SCCG407 : เครือข่ายคอมพิวเตอร์และการสือสาร"
         android:textColor="@color/black"
-        android:textSize="17dp"
-        android:drawablePadding="10dp"
-        android:drawableLeft="@drawable/ic_baseline_library_books_24"/>
+        android:textSize="17dp" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_baseline_access_time_filled_24"
+        android:drawablePadding="10dp"
         android:text=": พ./ 8.00/12.00 /ห้อง 24209"
         android:textColor="@color/black"
-        android:textSize="19dp"
-        android:drawablePadding="10dp"
-        android:drawableLeft="@drawable/ic_baseline_access_time_filled_24"/>
+        android:textSize="19dp" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:drawablePadding="10dp"
         android:text=": ผู้ช่วยศาสตราจารย์ เจษฎาพร ปาคำวัง"
         android:textColor="@color/black"
-        android:textSize="19dp"
-        android:drawablePadding="10dp"
-        android:drawableLeft="@drawable/ic_baseline_person_24" />
+        android:textSize="19dp" />
 
     --------------------------------------------------------------
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_baseline_library_books_24"
+        android:drawablePadding="10dp"
         android:text=": SCCS203 : เทคโนโลยีอินเทอร์เน็ตและการพัฒนา"
         android:textColor="@color/black"
-        android:textSize="17dp"
-        android:drawablePadding="10dp"
-        android:drawableLeft="@drawable/ic_baseline_library_books_24"/>
+        android:textSize="17dp" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_baseline_access_time_filled_24"
+        android:drawablePadding="10dp"
         android:text=": พฤ./ 8.00/12.00 / ห้อง 24309"
         android:textColor="@color/black"
-        android:textSize="19dp"
-        android:drawablePadding="10dp"
-        android:drawableLeft="@drawable/ic_baseline_access_time_filled_24"/>
+        android:textSize="19dp" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:drawablePadding="10dp"
         android:text=": อาจารย์ ยุพา คำตะพล"
         android:textColor="@color/black"
-        android:textSize="19dp"
-        android:drawablePadding="10dp"
-        android:drawableLeft="@drawable/ic_baseline_person_24"/>
+        android:textSize="19dp" />
     --------------------------------------------------------------
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_baseline_library_books_24"
+        android:drawablePadding="10dp"
         android:text=": SCIT205:การพัฒนาโปรแกรมประยุกต์บนอุปกรณ์"
         android:textColor="@color/black"
-        android:textSize="17dp"
-        android:drawablePadding="10dp"
-        android:drawableLeft="@drawable/ic_baseline_library_books_24"/>
+        android:textSize="17dp" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_baseline_access_time_filled_24"
+        android:drawablePadding="10dp"
         android:text=": พฤ./ 13.00/17.00 / ห้อง 24308"
         android:textColor="@color/black"
-        android:textSize="19dp"
-        android:drawablePadding="10dp"
-        android:drawableLeft="@drawable/ic_baseline_access_time_filled_24"/>
+        android:textSize="19dp" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:drawablePadding="10dp"
         android:text=": อาจารย์ ดวงจันทร์ สีหาราช"
         android:textColor="@color/black"
-        android:textSize="19dp"
-        android:drawablePadding="10dp"
-        android:drawableLeft="@drawable/ic_baseline_person_24"/>
+        android:textSize="19dp" />
     --------------------------------------------------------------
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_baseline_library_books_24"
+        android:drawablePadding="10dp"
         android:text=": SCIT102 : ระบบฐานข้อมูล"
         android:textColor="@color/black"
-        android:textSize="19dp"
-        android:drawablePadding="10dp"
-        android:drawableLeft="@drawable/ic_baseline_library_books_24"/>
+        android:textSize="19dp" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_baseline_access_time_filled_24"
+        android:drawablePadding="10dp"
         android:text=": ศ./ 9.00/12.00 / ห้อง 24207"
         android:textColor="@color/black"
-        android:textSize="19dp"
-        android:drawablePadding="10dp"
-        android:drawableLeft="@drawable/ic_baseline_access_time_filled_24"/>
+        android:textSize="19dp" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:drawablePadding="10dp"
         android:text=": ช่วยศาสตราจารย์ ฐิณาภัณฑ์ นิธิยุวิทย์"
         android:textColor="@color/black"
-        android:textSize="19dp"
-        android:drawablePadding="10dp"
-        android:drawableLeft="@drawable/ic_baseline_person_24"/>
+        android:textSize="19dp" />
     --------------------------------------------------------------
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_baseline_library_books_24"
+        android:drawablePadding="10dp"
         android:text=": SCIT405 : คอมพิวเตอร์กราฟิกและแอนิเมชั่น"
         android:textColor="@color/black"
-        android:textSize="17dp"
-        android:drawablePadding="10dp"
-        android:drawableLeft="@drawable/ic_baseline_library_books_24"/>
+        android:textSize="17dp" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_baseline_access_time_filled_24"
+        android:drawablePadding="10dp"
         android:text=": ชศ./ 13.00/17.00 / ห้อง 24308"
         android:textColor="@color/black"
-        android:textSize="19dp"
-        android:drawablePadding="10dp"
-        android:drawableLeft="@drawable/ic_baseline_access_time_filled_24"/>
+        android:textSize="19dp" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:drawablePadding="10dp"
         android:text=": อาจารย์ ศรัญญา ตรีทศ"
         android:textColor="@color/black"
-        android:textSize="19dp"
-        android:drawablePadding="10dp"
-        android:drawableLeft="@drawable/ic_baseline_person_24"/>
+        android:textSize="19dp" />
     --------------------------------------------------------------
+
     <Button
         android:id="@+id/btnback02"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:backgroundTint="#D2691E"
         android:onClick="backPage3"
         android:text="ย้อนกลับ"
         android:textSize="15dp"
-        android:backgroundTint="#D2691E"
         android:translationX="120dp"
-        android:translationY="10dp"
-        />
+        android:translationY="10dp" />
 </LinearLayout>
