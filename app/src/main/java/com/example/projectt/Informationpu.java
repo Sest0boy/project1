@@ -32,8 +32,9 @@ public class Informationpu extends AppCompatActivity {
         Intent intent = new Intent(this, Informationpeat.class);
         startActivity(intent);
     }
+
     public void backPage3(View view){
-        ImageView imageView = (ImageView) findViewById(R.id.left_icon);
+        ImageView imageView = (ImageView) findViewById(R.id.left_icon0);
         Intent intent = new Intent(this, MainInformation.class);
         startActivity(intent);
     }

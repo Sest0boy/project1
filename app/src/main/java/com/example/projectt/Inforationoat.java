@@ -25,7 +25,11 @@ public class Inforationoat extends AppCompatActivity {
             }
         });
     }
-
+    public void backPageHome5(View view){
+        ImageView imageView = (ImageView)findViewById(R.id.left_icon3);
+        Intent intent = new Intent(this, MainInformation.class);
+        startActivity(intent);
+    }
     public void backPage3(View view){
         ImageView imageView = (ImageView)findViewById(R.id.left_icon3);
         Intent intent = new Intent(this, Informationjame.class);

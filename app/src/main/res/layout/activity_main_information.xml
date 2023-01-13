@@ -5,20 +5,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/bak1"
+    android:background="@drawable/circuit2"
     tools:context=".MainInformation">
 
     <ImageView
         android:id="@+id/image_view"
         android:layout_width="match_parent"
-        android:layout_height="230dp"
+        android:layout_height="221dp"
         android:layout_gravity="center"
         android:adjustViewBounds="true"
         android:maxWidth="200dp"
         android:maxHeight="280dp"
         android:scaleType="fitCenter"
-        android:background="@drawable/back2"
- />
+/>
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -31,15 +30,14 @@
             android:id="@+id/btn01"
             android:layout_width="190dp"
             android:layout_height="wrap_content"
-            android:onClick="NextPage1"
-            android:text="ข้อมูลนักศึกษา"
-            android:textSize="18dp"
-            android:textColor="@color/black"
-            android:backgroundTint="#FFA500"
-            android:translationY="5dp"
-            android:padding="10dp"
+            android:backgroundTint="#66CCFF"
             android:drawableLeft="@drawable/ic_baseline_person_24"
-            />
+            android:onClick="NextPage1"
+            android:padding="10dp"
+            android:text="ข้อมูลนักศึกษา"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:translationY="5dp" />
 
         <Button
             android:id="@+id/btn02"
@@ -48,7 +46,7 @@
             android:onClick="NextPage2"
             android:text="ข้อมูลรายวิชา"
             android:textSize="18dp"
-            android:backgroundTint="#FFA500"
+            android:backgroundTint="#66CCFF"
             android:layout_marginTop="30dp"
             android:padding="10dp"
             android:textColor="@color/black"
@@ -62,7 +60,7 @@
             android:layout_height="wrap_content"
             android:text="เกี่ยวกับ"
             android:textSize="18dp"
-            android:backgroundTint="#FFA500"
+            android:backgroundTint="#66CCFF"
             android:layout_marginTop="30dp"
             android:padding="10dp"
             android:textColor="@color/black"
@@ -74,7 +72,7 @@
             android:layout_height="wrap_content"
             android:text="ล็อกเอ้าท์"
             android:textSize="18dp"
-            android:backgroundTint="#FFA500"
+            android:backgroundTint="#66CCFF"
             android:layout_marginTop="30dp"
             android:padding="10dp"
             android:textStyle=""
@@ -90,6 +88,6 @@
         android:layout_gravity="center"
         android:text="@string/app_name"
         android:textSize="15dp"
-        android:translationY="130dp"
+        android:translationY="160dp"
         />
 </LinearLayout>

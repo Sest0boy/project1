@@ -3,18 +3,17 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="780dp"
     android:orientation="vertical"
-    android:background="@drawable/bak1"
+    android:background="@drawable/poster"
     tools:context=".Informationboat">
 
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@color/white"
         android:padding="10dp">
         <ImageView
-            android:onClick="btnback02"
+            android:onClick="backPage3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/left_icon1"
@@ -27,7 +26,7 @@
             android:text="HOME"
             android:layout_marginStart="135dp"
             android:textSize="16dp"
-            android:onClick="N"
+            android:onClick="backPageHome3"
             android:layout_toEndOf="@+id/left_icon1"/>
         <ImageView
             android:onClick="NextPage1"
@@ -46,24 +45,19 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="280dp"
-        android:src="@drawable/boat1" />
+        android:src="@drawable/boat1"
+        android:translationY="10dp"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="
-        \n      รหัส นศ. : 641102064112
-        \n
-        \n      ชื่อ : นายเด่นพิพัฒน์ สวัสดิ์ผล
-        \n
-        \n      ชื่อ(Eng) : Mr.Denpiphat Sawadpon
-        \n
-        \n      คณะ : วิทยาศาสตร์และเทคโนโลยี
-        \n
-        \n      สาขา : วิทยาการคอมพิวเตอร์
-        \n
-        \n      เข้าศึกษาเมื่อปี : 1/2564
-"
+        \n          รหัส นศ. : 641102064112 \n
+        \n          ชื่อ : นายเด่นพิพัฒน์ สวัสดิ์ผล \n
+        \n          ชื่อ(Eng) : Mr.Denpiphat Sawadpon   \n
+        \n          คณะ : วิทยาศาสตร์และเทคโนโลยี   \n
+        \n          สาขา : วิทยาการคอมพิวเตอร์  \n
+        \n          เข้าศึกษาเมื่อปี : 1/2564"
 
         android:textSize="20dp"
         android:textColor="@color/black"

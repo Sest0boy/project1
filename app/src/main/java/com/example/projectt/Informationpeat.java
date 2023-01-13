@@ -33,8 +33,13 @@ public class Informationpeat extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void backPageHome1(View view){
+        ImageView imageView = (ImageView)findViewById(R.id.left_icon0);
+        Intent intent = new Intent(this, MainInformation.class);
+        startActivity(intent);
+    }
     public void backPage3(View view){
-        ImageView imageView = (ImageView)findViewById(R.id.left_icon);
+        ImageView imageView = (ImageView)findViewById(R.id.left_icon0);
         Intent intent = new Intent(this, Informationpu.class);
         startActivity(intent);
     }

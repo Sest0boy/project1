@@ -1,24 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="780dp"
     android:orientation="vertical"
-    android:background="@drawable/bak1"
-
+    android:background="@drawable/poster"
     tools:context=".Informationpu">
 
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@color/white"
         android:padding="10dp">
+
         <ImageView
-            android:onClick="btnback02"
+            android:onClick="backPage3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/left_icon"
+            android:id="@+id/left_icon001"
             android:src="@drawable/ic_baseline_arrow_back_24"
             />
         <TextView
@@ -26,9 +25,10 @@
             android:layout_height="wrap_content"
             android:textColor="@color/black"
             android:text="HOME"
+            android:onClick="backPageHome"
             android:layout_marginStart="135dp"
             android:textSize="16dp"
-            android:layout_toEndOf="@+id/left_icon"/>
+            android:layout_toEndOf="@+id/left_icon001"/>
         <ImageView
             android:onClick="NextPage1"
             android:layout_width="wrap_content"
@@ -47,23 +47,19 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="280dp"
-        android:src="@drawable/kit1" />
+        android:src="@drawable/kit1"
+        android:translationY="10dp"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="
-        \n      รหัส นศ. : 641102064110
-        \n
-        \n      ชื่อ : นายกิตติพรรณ บุญช่วย
-        \n
-        \n      ชื่อ(Eng) : Mr.Kittipan bunchuai
-        \n
-        \n      คณะ : วิทยาศาสตร์และเทคโนโลยี
-        \n
-        \n      สาขา : วิทยาการคอมพิวเตอร์
-        \n
-        \n      เข้าศึกษาเมื่อปี : 1/2564"
+        \n          รหัส นศ. : 641102064110 \n
+        \n          ชื่อ : นายกิตติพรรณ บุญช่วย \n
+        \n          ชื่อ(Eng) : Mr.Kittipan bunchuai    \n
+        \n          คณะ : วิทยาศาสตร์และเทคโนโลยี   \n
+        \n          สาขา : วิทยาการคอมพิวเตอร์  \n
+        \n          เข้าศึกษาเมื่อปี : 1/2564"
 
         android:textSize="20dp"
         android:textColor="@color/black"
@@ -71,7 +67,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="60dp"
         android:orientation="vertical"
         tools:ignore="UselessParent">
 
@@ -82,7 +78,7 @@
             android:text="Facebook"
             android:translationY="10dp"
             android:layout_gravity="center"
-            android:backgroundTint="#4682B4"
+            android:backgroundTint="#66CCFF"
 
             />
     </LinearLayout>

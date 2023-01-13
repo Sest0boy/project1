@@ -31,6 +31,12 @@ public class Informationboat extends AppCompatActivity {
         Intent intent = new Intent(this, Informationjame.class);
         startActivity(intent);
     }
+
+    public void backPageHome3(View view){
+        ImageView imageView = (ImageView)findViewById(R.id.left_icon1);
+        Intent intent = new Intent(this, MainInformation.class);
+        startActivity(intent);
+    }
     public void backPage3(View view){
         ImageView imageView = (ImageView)findViewById(R.id.right_icon1);
         Intent intent = new Intent(this, Informationpeat.class);

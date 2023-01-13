@@ -3,21 +3,21 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="780dp"
     android:orientation="vertical"
-    android:background="@drawable/bak1"
+    android:background="@drawable/poster"
     tools:context=".Informationpeat">
 
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@color/white"
+
         android:padding="10dp">
         <ImageView
-            android:onClick="btnback02"
+            android:onClick="backPage3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/left_icon"
+            android:id="@+id/left_icon0"
             android:src="@drawable/ic_baseline_arrow_back_24"
             />
         <TextView
@@ -27,8 +27,9 @@
             android:text="HOME"
             android:layout_marginStart="135dp"
             android:textSize="16dp"
-            android:onClick="N"
-            android:layout_toEndOf="@+id/left_icon"/>
+            android:onClick="backPageHome1"
+            android:layout_toEndOf="@+id/left_icon0"/>
+
         <ImageView
             android:onClick="NextPage1"
             android:layout_width="wrap_content"
@@ -52,23 +53,19 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="280dp"
-            android:src="@drawable/peat1" />
+            android:src="@drawable/peat1"
+            android:translationY="10dp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="
-        \n      รหัส นศ. : 641102064111
-        \n
-        \n      ชื่อ : นายภัทร เที่ยงตรง
-        \n
-        \n      ชื่อ(Eng) : Mr.Phattara Thiangtrong
-        \n
-        \n      คณะ : วิทยาศาสตร์และเทคโนโลยี
-        \n
-        \n      สาขา : วิทยาการคอมพิวเตอร์
-        \n
-        \n      เข้าศึกษาเมื่อปี : 1/2564"
+        \n          รหัส นศ. : 641102064111 \n
+        \n          ชื่อ : นายภัทร เที่ยงตรง    \n
+        \n          ชื่อ(Eng) : Mr.Phattara Thiangtrong \n
+        \n          คณะ : วิทยาศาสตร์และเทคโนโลยี   \n
+        \n          สาขา : วิทยาการคอมพิวเตอร์  \n
+        \n          เข้าศึกษาเมื่อปี : 1/2564"
 
             android:textSize="20dp"
             android:textColor="@color/black"

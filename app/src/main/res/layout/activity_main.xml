@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bak1"
+    android:background="@drawable/circuit"
     tools:context=".MainActivity">
 
     <TextView
@@ -38,6 +38,7 @@
         android:padding="20dp"
         android:textColor="@color/black"
         android:textColorHint="@color/black"
+        android:translationX="15dp"
         android:translationY="50dp"/>
 
     <EditText
@@ -57,6 +58,7 @@
         android:padding="20dp"
         android:textColor="@color/black"
         android:textColorHint="@color/black"
+        android:translationX="15dp"
         android:translationY="50dp"/>
 
     <Button
@@ -69,7 +71,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="20dp"
-        android:backgroundTint="#FFA500"
+        android:backgroundTint="#66CCFF"
         android:onClick="NextPage2"
         android:text="เข้าสู่ระบบ"
         android:textColor="@color/black"

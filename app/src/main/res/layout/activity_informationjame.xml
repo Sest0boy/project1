@@ -3,18 +3,17 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="780dp"
     android:orientation="vertical"
-    android:background="@drawable/bak1"
+    android:background="@drawable/poster"
     tools:context=".Informationjame">
 
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@color/white"
         android:padding="10dp">
         <ImageView
-            android:onClick="btnback02"
+            android:onClick="backPage3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/left_icon2"
@@ -24,8 +23,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/black"
-
+            android:text="HOME"
             android:layout_marginStart="135dp"
+            android:onClick="backPageHome4"
             android:textSize="16dp"
             android:layout_toEndOf="@+id/left_icon2"/>
 
@@ -44,8 +44,8 @@
         android:layout_height="wrap_content"
         />
     <ImageView
-        android:layout_width="370dp"
-        android:layout_height="280dp"
+        android:layout_width="330dp"
+        android:layout_height="270dp"
         android:layout_gravity="center"
         android:src="@drawable/jame1" />
 
@@ -53,17 +53,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="
-        \n      รหัส นศ. : 641102064113
-        \n
-        \n      ชื่อ : นายภานุพงศ์ อุทัย
-        \n
-        \n      ชื่อ(Eng) : Mr.panuphong uthai
-        \n
-        \n      คณะ : วิทยาศาสตร์และเทคโนโลยี
-        \n
-        \n      สาขา : วิทยาการคอมพิวเตอร์
-        \n
-        \n      เข้าศึกษาเมื่อปี : 1/2564
+        \n          รหัส นศ. : 641102064113 \n
+        \n          ชื่อ : นายภานุพงศ์ อุทัย    \n
+        \n          ชื่อ(Eng) : Mr.panuphong uthai  \n
+        \n          คณะ : วิทยาศาสตร์และเทคโนโลยี   \n
+        \n          สาขา : วิทยาการคอมพิวเตอร์  \n
+        \n          เข้าศึกษาเมื่อปี : 1/2564
 "
 
         android:textSize="20dp"
