@@ -8,6 +8,37 @@
     android:background="@drawable/bak1"
     tools:context=".Informationjame">
 
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="10dp">
+        <ImageView
+            android:onClick="btnback02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/left_icon2"
+            android:src="@drawable/ic_baseline_arrow_back_24"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+
+            android:layout_marginStart="135dp"
+            android:textSize="16dp"
+            android:layout_toEndOf="@+id/left_icon2"/>
+
+        <ImageView
+            android:onClick="NextPage1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/right_icon2"
+            android:src="@drawable/ic_baseline_arrow_forward_24"/>
+
+    </RelativeLayout>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -33,7 +64,6 @@
         \n      สาขา : วิทยาการคอมพิวเตอร์
         \n
         \n      เข้าศึกษาเมื่อปี : 1/2564
-        \n
 "
 
         android:textSize="20dp"
@@ -42,28 +72,9 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="62dp"
-        android:orientation="horizontal"
+        android:layout_height="50dp"
+        android:orientation="vertical"
         tools:ignore="UselessParent">
-        <Button
-            android:id="@+id/btnstu3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="NextPage1"
-            android:text="ถัดไป"
-            android:backgroundTint="#D2691E"
-            android:translationX="25dp"
-            android:translationY="10dp" />
-
-        <Button
-            android:id="@+id/btnback1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="backPage3"
-            android:text="ย้อนกลับ"
-            android:backgroundTint="#D2691E"
-            android:translationX="200dp"
-            android:translationY="10dp" />
 
         <Button
             android:id="@+id/btnFb4"
@@ -71,8 +82,8 @@
             android:layout_height="wrap_content"
             android:text="Facebook"
             android:backgroundTint="#4682B4"
-            android:translationX="-35dp"
             android:translationY="10dp"
+            android:layout_gravity="center"
             />
     </LinearLayout>
 

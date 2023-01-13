@@ -8,6 +8,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 
 public class Informationboat extends AppCompatActivity {
 
@@ -26,12 +27,12 @@ public class Informationboat extends AppCompatActivity {
     }
 
     public void NextPage1(View view){
-        Button button = (Button)findViewById(R.id.btnFb2);
+        ImageView imageView = (ImageView)findViewById(R.id.left_icon1);
         Intent intent = new Intent(this, Informationjame.class);
         startActivity(intent);
     }
     public void backPage3(View view){
-        Button button = (Button)findViewById(R.id.btnback0);
+        ImageView imageView = (ImageView)findViewById(R.id.right_icon1);
         Intent intent = new Intent(this, Informationpeat.class);
         startActivity(intent);
     }

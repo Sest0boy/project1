@@ -8,6 +8,8 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 public class Informationpu extends AppCompatActivity {
 
@@ -15,15 +17,23 @@ public class Informationpu extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_informationpu);
+
+        Button button = (Button) findViewById(R.id.btnFb1);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                goTOFacebookPage("100021674274318");
+            }
+        });
     }
 
     public void NextPage1(View view){
-        Button button = (Button)findViewById(R.id.btnstu1);
+        ImageView imageView = (ImageView) findViewById(R.id.right_icon);
         Intent intent = new Intent(this, Informationpeat.class);
         startActivity(intent);
     }
     public void backPage3(View view){
-        Button button = (Button)findViewById(R.id.btnback02);
+        ImageView imageView = (ImageView) findViewById(R.id.left_icon);
         Intent intent = new Intent(this, MainInformation.class);
         startActivity(intent);
     }

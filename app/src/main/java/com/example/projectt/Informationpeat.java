@@ -8,6 +8,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 
 public class Informationpeat extends AppCompatActivity {
 
@@ -27,12 +28,13 @@ public class Informationpeat extends AppCompatActivity {
 
 
     public void NextPage1(View view){
-        Button button = (Button)findViewById(R.id.btnFb2);
+        ImageView imageView = (ImageView)findViewById(R.id.right_icon);
         Intent intent = new Intent(this, Informationboat.class);
         startActivity(intent);
     }
+
     public void backPage3(View view){
-        Button button = (Button)findViewById(R.id.btnback01);
+        ImageView imageView = (ImageView)findViewById(R.id.left_icon);
         Intent intent = new Intent(this, Informationpu.class);
         startActivity(intent);
     }

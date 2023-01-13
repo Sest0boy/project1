@@ -8,6 +8,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 
 public class Inforationoat extends AppCompatActivity {
 
@@ -26,7 +27,7 @@ public class Inforationoat extends AppCompatActivity {
     }
 
     public void backPage3(View view){
-        Button button = (Button)findViewById(R.id.btnback2);
+        ImageView imageView = (ImageView)findViewById(R.id.left_icon3);
         Intent intent = new Intent(this, Informationjame.class);
         startActivity(intent);
     }

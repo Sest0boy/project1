@@ -19,7 +19,8 @@
         android:text="เข้าสู่ระบบ"
         android:textColor="@color/black"
         android:textSize="35dp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:translationY="50dp"/>
 
     <EditText
         android:id="@+id/StdC"
@@ -36,7 +37,8 @@
         android:hint="รหัสนักศึกษา(USER ID)"
         android:padding="20dp"
         android:textColor="@color/black"
-        android:textColorHint="@color/black" />
+        android:textColorHint="@color/black"
+        android:translationY="50dp"/>
 
     <EditText
         android:id="@+id/password"
@@ -53,8 +55,9 @@
         android:hint="รหัสผ่าน(Password)"
         android:inputType="textPassword"
         android:padding="20dp"
-        android:textColor="@color/white"
-        android:textColorHint="@color/black" />
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:translationY="50dp"/>
 
     <Button
         android:id="@+id/loginbtn"
@@ -69,7 +72,8 @@
         android:backgroundTint="#FFA500"
         android:onClick="NextPage2"
         android:text="เข้าสู่ระบบ"
-        android:textColor="@color/black" />
+        android:textColor="@color/black"
+        android:translationY="50dp"/>
 
     <TextView
         android:id="@+id/forgotpass"
@@ -82,5 +86,6 @@
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="20dp"
         android:text="ฉันลืมรหัสผ่าน?"
-        android:textColor="@color/black" />
+        android:textColor="@color/black"
+        android:translationY="50dp"/>
 </RelativeLayout>

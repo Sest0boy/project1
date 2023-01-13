@@ -5,18 +5,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/bak1"
     tools:context=".MainInformation">
 
     <ImageView
         android:id="@+id/image_view"
-        android:layout_width="414dp"
-        android:layout_height="274dp"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
         android:layout_gravity="center"
         android:adjustViewBounds="true"
         android:maxWidth="200dp"
-        android:maxHeight="250dp"
+        android:maxHeight="280dp"
         android:scaleType="fitCenter"
-        android:src="@drawable/sest02" />
+        android:background="@drawable/back2"
+ />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -34,7 +36,7 @@
             android:textSize="18dp"
             android:textColor="@color/black"
             android:backgroundTint="#FFA500"
-            android:translationY="20dp"
+            android:translationY="5dp"
             android:padding="10dp"
             android:drawableLeft="@drawable/ic_baseline_person_24"
             />
@@ -47,7 +49,7 @@
             android:text="ข้อมูลรายวิชา"
             android:textSize="18dp"
             android:backgroundTint="#FFA500"
-            android:translationY="45dp"
+            android:layout_marginTop="30dp"
             android:padding="10dp"
             android:textColor="@color/black"
             android:drawableLeft="@drawable/ic_baseline_menu_book_24"
@@ -61,7 +63,7 @@
             android:text="เกี่ยวกับ"
             android:textSize="18dp"
             android:backgroundTint="#FFA500"
-            android:translationY="70dp"
+            android:layout_marginTop="30dp"
             android:padding="10dp"
             android:textColor="@color/black"
             android:drawableLeft="@drawable/ic_baseline_email_24"/>
@@ -73,8 +75,9 @@
             android:text="ล็อกเอ้าท์"
             android:textSize="18dp"
             android:backgroundTint="#FFA500"
-            android:translationY="96dp"
+            android:layout_marginTop="30dp"
             android:padding="10dp"
+            android:textStyle=""
             android:onClick="backPage3"
             android:textColor="@color/black"
             android:drawableLeft="@drawable/ic_baseline_logout_24"/>
@@ -87,6 +90,6 @@
         android:layout_gravity="center"
         android:text="@string/app_name"
         android:textSize="15dp"
-        android:translationY="90dp"
+        android:translationY="130dp"
         />
 </LinearLayout>
