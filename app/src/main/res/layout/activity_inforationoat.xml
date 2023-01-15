@@ -48,15 +48,15 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="      \n      รหัส นศ. : 641102064114    \n
-        \n          ชื่อ : ณัฐวุฒิ โพธิ์ศรีอง   \n
+        android:text="      \n          รหัส นศ. : 641102064114    \n
+        \n          ชื่อ : นายณัฐวุฒิ โพธิ์ศรีทอง   \n
         \n          ชื่อ(Eng) : Mr.Nutthawut Phosrithong    \n
         \n          คณะ : วิทยาศาสตร์และเทคโนโลยี   \n
         \n          สาขา : วิทยาการคอมพิวเตอร์  \n
         \n          เข้าศึกษาเมื่อปี : 1/2564
 "
 
-        android:textSize="20dp"
+        android:textSize="19dp"
         android:textColor="@color/black"
         />
 
@@ -72,7 +72,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Facebook"
-            android:translationY="10dp"
+            android:translationY="15dp"
             android:backgroundTint="#66CCFF"
             android:layout_gravity="center"
             />

@@ -61,13 +61,13 @@
         \n          เข้าศึกษาเมื่อปี : 1/2564
 "
 
-        android:textSize="20dp"
+        android:textSize="19dp"
         android:textColor="@color/black"
         />
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="60dp"
         android:orientation="vertical"
         tools:ignore="UselessParent">
 
@@ -77,7 +77,7 @@
             android:layout_height="wrap_content"
             android:text="Facebook"
             android:backgroundTint="#66CCFF"
-            android:translationY="10dp"
+            android:translationY="15dp"
             android:layout_gravity="center"
             />
     </LinearLayout>

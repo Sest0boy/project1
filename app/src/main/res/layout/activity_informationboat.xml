@@ -59,7 +59,7 @@
         \n          สาขา : วิทยาการคอมพิวเตอร์  \n
         \n          เข้าศึกษาเมื่อปี : 1/2564"
 
-        android:textSize="20dp"
+        android:textSize="19dp"
         android:textColor="@color/black"
         />
 
@@ -74,7 +74,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Facebook"
-            android:translationY="10dp"
+            android:translationY="15dp"
             android:backgroundTint="#66CCFF"
             android:layout_gravity="center"
             />
