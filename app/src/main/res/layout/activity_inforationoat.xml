@@ -73,7 +73,7 @@
             android:layout_height="wrap_content"
             android:text="Facebook"
             android:translationY="10dp"
-            android:backgroundTint="#4682B4"
+            android:backgroundTint="#66CCFF"
             android:layout_gravity="center"
             />
 

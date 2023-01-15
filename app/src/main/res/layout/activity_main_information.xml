@@ -22,15 +22,15 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="320dp"
-        android:orientation="vertical"
         android:layout_gravity="center"
+        android:orientation="vertical"
         tools:ignore="UselessParent">
 
         <Button
             android:id="@+id/btn01"
             android:layout_width="190dp"
             android:layout_height="wrap_content"
-            android:backgroundTint="#66CCFF"
+            android:backgroundTint="#66FFFF"
             android:drawableLeft="@drawable/ic_baseline_person_24"
             android:onClick="NextPage1"
             android:padding="10dp"
@@ -43,42 +43,41 @@
             android:id="@+id/btn02"
             android:layout_width="190dp"
             android:layout_height="wrap_content"
-            android:onClick="NextPage2"
-            android:text="ข้อมูลรายวิชา"
-            android:textSize="18dp"
-            android:backgroundTint="#66CCFF"
             android:layout_marginTop="30dp"
-            android:padding="10dp"
-            android:textColor="@color/black"
+            android:backgroundTint="#66FFFF"
             android:drawableLeft="@drawable/ic_baseline_menu_book_24"
-            />
+            android:onClick="NextPage2"
+            android:padding="10dp"
+            android:text="ข้อมูลรายวิชา"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
 
 
         <Button
             android:id="@+id/buttonSend0"
             android:layout_width="190dp"
             android:layout_height="wrap_content"
-            android:text="เกี่ยวกับ"
-            android:textSize="18dp"
-            android:backgroundTint="#66CCFF"
             android:layout_marginTop="30dp"
+            android:backgroundTint="#66FFFF"
+            android:drawableLeft="@drawable/ic_baseline_email_24"
             android:padding="10dp"
+            android:text="เกี่ยวกับ"
             android:textColor="@color/black"
-            android:drawableLeft="@drawable/ic_baseline_email_24"/>
+            android:textSize="18dp" />
 
         <Button
             android:id="@+id/btnlogout"
             android:layout_width="190dp"
             android:layout_height="wrap_content"
-            android:text="ล็อกเอ้าท์"
-            android:textSize="18dp"
-            android:backgroundTint="#66CCFF"
             android:layout_marginTop="30dp"
-            android:padding="10dp"
-            android:textStyle=""
+            android:backgroundTint="#66FFFF"
+            android:drawableLeft="@drawable/ic_baseline_logout_24"
             android:onClick="backPage3"
+            android:padding="10dp"
+            android:text="ล็อกเอ้าท์"
             android:textColor="@color/black"
-            android:drawableLeft="@drawable/ic_baseline_logout_24"/>
+            android:textSize="18dp"
+            android:textStyle="" />
 
     </LinearLayout>
 

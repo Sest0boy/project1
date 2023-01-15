@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/circuit"
     tools:context=".MainActivity2">
 
 
@@ -223,7 +224,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:backgroundTint="#D2691E"
+        android:backgroundTint="#66CCFF"
         android:onClick="backPage3"
         android:text="ย้อนกลับ"
         android:textSize="15dp"
