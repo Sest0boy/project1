@@ -87,6 +87,6 @@
         android:layout_gravity="center"
         android:text="@string/app_name"
         android:textSize="15dp"
-        android:translationY="140dp"
+        android:translationY="110dp"
         />
 </LinearLayout>
