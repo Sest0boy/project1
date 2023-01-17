@@ -24,8 +24,9 @@
             android:layout_height="wrap_content"
             android:textColor="@color/black"
             android:text="HOME"
-            android:layout_marginStart="135dp"
+            android:layout_marginStart="125dp"
             android:onClick="backPageHome4"
+            android:drawableLeft="@drawable/ic_baseline_home_24"
             android:textSize="16dp"
             android:layout_toEndOf="@+id/left_icon2"/>
 
