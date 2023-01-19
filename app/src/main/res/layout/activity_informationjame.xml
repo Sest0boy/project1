@@ -54,12 +54,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="
-        \n          รหัส นศ. : 641102064113 \n
-        \n          ชื่อ : นายภานุพงศ์ อุทัย    \n
-        \n          ชื่อ(Eng) : Mr.panuphong uthai  \n
-        \n          คณะ : วิทยาศาสตร์และเทคโนโลยี   \n
-        \n          สาขา : วิทยาการคอมพิวเตอร์  \n
-        \n          เข้าศึกษาเมื่อปี : 1/2564
+        \nรหัส นศ. : 641102064113 \n
+        \nชื่อ : นายภานุพงศ์ อุทัย    \n
+        \nชื่อ(Eng) : Mr.panuphong uthai  \n
+        \nคณะ : วิทยาศาสตร์และเทคโนโลยี   \n
+        \nสาขา : วิทยาการคอมพิวเตอร์  \n
+        \nเข้าศึกษาเมื่อปี : 1/2564
 "
 
         android:textSize="19dp"

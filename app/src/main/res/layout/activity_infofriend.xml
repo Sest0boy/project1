@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/circuit"
+    tools:context=".Infofriend">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="HOME"
+            android:drawableLeft="@drawable/ic_baseline_home_24"
+            android:onClick="backPagehome"
+            android:layout_marginStart="145dp"
+            android:textSize="16dp"
+            android:layout_toEndOf="@+id/left_icon001"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="1.3in"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp">
+
+                <ImageView
+                    android:layout_width="125dp"
+                    android:layout_height="210dp"
+                    android:layout_marginTop="5dp"
+                    android:adjustViewBounds="true"
+                    android:maxWidth="300dp"
+                    android:maxHeight="300dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/bas" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="0.82in"
+                    android:text="รหัส นศ. : 641102064101 \n
+                \nชื่อ : นายฤทธิเดช กมล \n
+                \nชื่อ(Eng) : Mr.Ritthidet Kamon    \n
+                \nคณะ : วิทยาศาสตร์และเทคโนโลยี   \n
+                \nสาขา : วิทยาการคอมพิวเตอร์  \n
+                \nเข้าศึกษาเมื่อปี : 1/2564"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <Button
+                    android:id="@+id/btnFbbas"
+                    android:text="FB"
+                    android:layout_width="70dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="right"
+                    android:translationY="167dp"
+                    android:backgroundTint="#66CCFF"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="1.3in"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp">
+                <ImageView
+                    android:layout_width="125dp"
+                    android:layout_height="220dp"
+                    android:layout_marginTop="5dp"
+                    android:adjustViewBounds="true"
+                    android:maxWidth="300dp"
+                    android:maxHeight="300dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ohm" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="0.82in"
+                    android:text="รหัส นศ. : 641102064103 \n
+                \nชื่อ : นายเฉลิมชัย บุญยอย \n
+                \nชื่อ(Eng) : Mr.Chaloemchai Boonyoi    \n
+                \nคณะ : วิทยาศาสตร์และเทคโนโลยี   \n
+                \nสาขา : วิทยาการคอมพิวเตอร์  \n
+                \nเข้าศึกษาเมื่อปี : 1/2564"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <Button
+                    android:id="@+id/btnFbohm"
+                    android:text="FB"
+                    android:layout_width="70dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="right"
+                    android:translationY="167dp"
+                    android:backgroundTint="#66CCFF"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="1.3in"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp">
+
+                <ImageView
+                    android:layout_width="125dp"
+                    android:layout_height="207dp"
+                    android:layout_marginTop="5dp"
+                    android:adjustViewBounds="true"
+                    android:maxWidth="300dp"
+                    android:maxHeight="300dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/aum" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="0.82in"
+                    android:text="รหัส นศ. : 641102064104 \n
+                    \nชื่อ : นายรัฐธรรมนูญ  สมบูรณ์ \n
+                    \nชื่อ(Eng) : Mr.Rattatamnoon Somboon   \n
+                    \nคณะ : วิทยาศาสตร์และเทคโนโลยี   \n
+                    \nสาขา : วิทยาการคอมพิวเตอร์  \n
+                    \nเข้าศึกษาเมื่อปี : 1/2564"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <Button
+                    android:id="@+id/btnFbaum"
+                    android:text="FB"
+                    android:layout_marginRight="5dp"
+                    android:layout_width="70dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="right"
+                    android:translationY="167dp"
+                    android:backgroundTint="#66CCFF"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="1.3in"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp">
+
+                <ImageView
+                    android:layout_width="125dp"
+                    android:layout_height="207dp"
+                    android:layout_marginTop="5dp"
+                    android:adjustViewBounds="true"
+                    android:maxWidth="300dp"
+                    android:maxHeight="300dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/fern" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="0.8in"
+                    android:text="รหัส นศ. : 641102064107 \n
+                    \nชื่อ : นายวิชุตา  กองพล \n
+                    \nชื่อ(Eng) : Mr.Wichuta Kongpol  \n
+                    \nคณะ : วิทยาศาสตร์และเทคโนโลยี   \n
+                    \nสาขา : วิทยาการคอมพิวเตอร์  \n
+                    \nเข้าศึกษาเมื่อปี : 1/2564"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <Button
+                    android:id="@+id/btnFbfern"
+                    android:text="FB"
+                    android:layout_marginRight="5dp"
+                    android:layout_width="70dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="right"
+                    android:translationY="167dp"
+                    android:backgroundTint="#66CCFF"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="1.3in"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp">
+
+                <ImageView
+                    android:layout_width="125dp"
+                    android:layout_height="207dp"
+                    android:layout_marginTop="5dp"
+                    android:adjustViewBounds="true"
+                    android:maxWidth="300dp"
+                    android:maxHeight="300dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/kit1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="0.8in"
+                    android:text="รหัส นศ. : 641102064110 \n
+                \nชื่อ : นายกิตติพรรณ บุญช่วย \n
+                \nชื่อ(Eng) : Mr.Kittipan bunchuai    \n
+                \nคณะ : วิทยาศาสตร์และเทคโนโลยี   \n
+                \nสาขา : วิทยาการคอมพิวเตอร์  \n
+                \nเข้าศึกษาเมื่อปี : 1/2564"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <Button
+                    android:id="@+id/btnFbpu"
+                    android:text="FB"
+                    android:layout_marginRight="5dp"
+                    android:layout_width="70dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="right"
+                    android:translationY="167dp"
+                    android:backgroundTint="#66CCFF"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="1.3in"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp">
+
+                <ImageView
+                    android:layout_width="125dp"
+                    android:layout_height="207dp"
+                    android:layout_marginTop="5dp"
+                    android:adjustViewBounds="true"
+                    android:maxWidth="300dp"
+                    android:maxHeight="300dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/peat1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="0.8in"
+                    android:text="รหัส นศ. : 641102064111 \n
+            \nชื่อ : นายภัทร เที่ยงตรง    \n
+            \nชื่อ(Eng) : Mr.Phattara Thiangtrong \n
+            \nคณะ : วิทยาศาสตร์และเทคโนโลยี   \n
+            \nสาขา : วิทยาการคอมพิวเตอร์  \n
+            \nเข้าศึกษาเมื่อปี : 1/2564"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <Button
+                    android:id="@+id/btnFbpeat"
+                    android:text="FB"
+                    android:layout_marginRight="5dp"
+                    android:layout_width="70dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="right"
+                    android:translationY="167dp"
+                    android:backgroundTint="#66CCFF"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="1.3in"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp">
+
+                <ImageView
+                    android:layout_width="125dp"
+                    android:layout_height="207dp"
+                    android:layout_marginTop="5dp"
+                    android:adjustViewBounds="true"
+                    android:maxWidth="300dp"
+                    android:maxHeight="300dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/boat1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="0.8in"
+                    android:text="รหัส นศ. : 641102064112 \n
+                \nชื่อ : นายเด่นพิพัฒน์ สวัสดิ์ผล \n
+                \nชื่อ(Eng) : Mr.Denpiphat Sawadpon   \n
+                \nคณะ : วิทยาศาสตร์และเทคโนโลยี   \n
+                \nสาขา : วิทยาการคอมพิวเตอร์  \n
+                \nเข้าศึกษาเมื่อปี : 1/2564"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <Button
+                    android:id="@+id/btnFbboat"
+                    android:text="FB"
+                    android:layout_marginRight="5dp"
+                    android:layout_width="70dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="right"
+                    android:translationY="167dp"
+                    android:backgroundTint="#66CCFF"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="1.3in"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp">
+
+                <ImageView
+                    android:layout_width="125dp"
+                    android:layout_height="207dp"
+                    android:layout_marginTop="5dp"
+                    android:adjustViewBounds="true"
+                    android:maxWidth="300dp"
+                    android:maxHeight="300dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/jame2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="0.8in"
+                    android:text="รหัส นศ. : 641102064113 \n
+                \nชื่อ : นายภานุพงศ์ อุทัย    \n
+                \nชื่อ(Eng) : Mr.panuphong uthai  \n
+                \nคณะ : วิทยาศาสตร์และเทคโนโลยี   \n
+                \nสาขา : วิทยาการคอมพิวเตอร์  \n
+                \nเข้าศึกษาเมื่อปี : 1/2564"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <Button
+                    android:id="@+id/btnFbjame"
+                    android:text="FB"
+                    android:layout_marginRight="5dp"
+                    android:layout_width="70dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="right"
+                    android:translationY="167dp"
+                    android:backgroundTint="#66CCFF"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="1.3in"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp">
+
+                <ImageView
+                    android:layout_width="125dp"
+                    android:layout_height="207dp"
+                    android:layout_marginTop="5dp"
+                    android:adjustViewBounds="true"
+                    android:maxWidth="300dp"
+                    android:maxHeight="300dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/oat1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="0.8in"
+                    android:text="รหัส นศ. : 641102064114    \n
+                \nชื่อ : นายณัฐวุฒิ โพธิ์ศรีทอง   \n
+                \nชื่อ(Eng) : Mr.Nutthawut Phosrithong    \n
+                \nคณะ : วิทยาศาสตร์และเทคโนโลยี   \n
+                \nสาขา : วิทยาการคอมพิวเตอร์  \n
+                \nเข้าศึกษาเมื่อปี : 1/2564"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <Button
+                    android:id="@+id/btnFboat"
+                    android:text="FB"
+                    android:layout_marginRight="5dp"
+                    android:layout_width="70dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="right"
+                    android:translationY="167dp"
+                    android:backgroundTint="#66CCFF"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="1.3in"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp">
+
+                <ImageView
+                    android:layout_width="125dp"
+                    android:layout_height="207dp"
+                    android:layout_marginTop="5dp"
+                    android:adjustViewBounds="true"
+                    android:maxWidth="300dp"
+                    android:maxHeight="300dp"
+                    android:scaleType="fitCenter"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="0.8in"
+                    android:text="รหัส นศ. : 641102064117    \n
+                \nชื่อ : นาย กิตติพัฒน์ มานุช  \n
+                \nชื่อ(Eng) : Mr.Kittipat Manuch    \n
+                \nคณะ : วิทยาศาสตร์และเทคโนโลยี   \n
+                \nสาขา : วิทยาการคอมพิวเตอร์  \n
+                \nเข้าศึกษาเมื่อปี : 1/2564"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+                <Button
+                    android:id="@+id/btnFbmon"
+                    android:text="FB"
+                    android:layout_marginRight="5dp"
+                    android:layout_width="70dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="right"
+                    android:translationY="167dp"
+                    android:backgroundTint="#66CCFF"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="1.3in"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp">
+
+                <ImageView
+                    android:layout_width="125dp"
+                    android:layout_height="207dp"
+                    android:layout_marginTop="5dp"
+                    android:adjustViewBounds="true"
+                    android:maxWidth="300dp"
+                    android:maxHeight="300dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/art" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="0.8in"
+                    android:text="รหัส นศ. : 641102064127    \n
+                \nชื่อ : นาย ธนพนธ์ พรหมลัทธ  \n
+                \nชื่อ(Eng) : Mr.Thanaphon promlat    \n
+                \nคณะ : วิทยาศาสตร์และเทคโนโลยี   \n
+                \nสาขา : วิทยาการคอมพิวเตอร์  \n
+                \nเข้าศึกษาเมื่อปี : 1/2564"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <Button
+                    android:id="@+id/btnFbart"
+                    android:text="FB"
+                    android:layout_marginRight="5dp"
+                    android:layout_width="70dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="right"
+                    android:translationY="167dp"
+                    android:backgroundTint="#66CCFF"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="1.3in"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp">
+
+                <ImageView
+                    android:layout_width="125dp"
+                    android:layout_height="207dp"
+                    android:layout_marginTop="5dp"
+                    android:adjustViewBounds="true"
+                    android:maxWidth="300dp"
+                    android:maxHeight="300dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/nine" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="0.8in"
+                    android:text="รหัส นศ. : 641102064128    \n
+                \nชื่อ : นาย ทีรวัตร์  ศรีสร้อย  \n
+                \nชื่อ(Eng) : Mr.Teerawat Srisoy   \n
+                \nคณะ : วิทยาศาสตร์และเทคโนโลยี   \n
+                \nสาขา : วิทยาการคอมพิวเตอร์  \n
+                \nเข้าศึกษาเมื่อปี : 1/2564"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <Button
+                    android:id="@+id/btnFbnine"
+                    android:text="FB"
+                    android:layout_marginRight="5dp"
+                    android:layout_width="70dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="right"
+                    android:translationY="167dp"
+                    android:backgroundTint="#66CCFF"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="1.3in"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp">
+
+                <ImageView
+                    android:layout_width="125dp"
+                    android:layout_height="207dp"
+                    android:layout_marginTop="5dp"
+                    android:adjustViewBounds="true"
+                    android:maxWidth="300dp"
+                    android:maxHeight="300dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/jui" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="0.8in"
+                    android:text="รหัส นศ. : 641102064129    \n
+                \nชื่อ : นาย จิรกิตติ์ สืบสิงห์  \n
+                \nชื่อ(Eng) : Mr.Jirakit Suebsingh    \n
+                \nคณะ : วิทยาศาสตร์และเทคโนโลยี   \n
+                \nสาขา : วิทยาการคอมพิวเตอร์  \n
+                \nเข้าศึกษาเมื่อปี : 1/2564"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+                <Button
+                    android:id="@+id/btnFbjui"
+                    android:text="FB"
+                    android:layout_marginRight="5dp"
+                    android:layout_width="70dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="right"
+                    android:translationY="167dp"
+                    android:backgroundTint="#66CCFF"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="1.3in"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp">
+
+                <ImageView
+                    android:layout_width="125dp"
+                    android:layout_height="207dp"
+                    android:layout_marginTop="5dp"
+                    android:adjustViewBounds="true"
+                    android:maxWidth="300dp"
+                    android:maxHeight="300dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/sura" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="0.8in"
+                    android:text="รหัส นศ. : 641102064130    \n
+                \nชื่อ : นาย สุรมณ วงศ์วิริยชาต  \n
+                \nชื่อ(Eng) : Mr.Wongwiriyachat Suramon   \n
+                \nคณะ : วิทยาศาสตร์และเทคโนโลยี   \n
+                \nสาขา : วิทยาการคอมพิวเตอร์  \n
+                \nเข้าศึกษาเมื่อปี : 1/2564"
+                    android:textColor="@color/black"
+                    android:textSize="14dp" />
+
+                <Button
+                    android:id="@+id/btnFbsura"
+                    android:text="FB"
+                    android:layout_marginRight="5dp"
+                    android:layout_width="70dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="right"
+                    android:translationY="167dp"
+                    android:backgroundTint="#66CCFF"/>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+
+
+    </ScrollView>
+</LinearLayout>

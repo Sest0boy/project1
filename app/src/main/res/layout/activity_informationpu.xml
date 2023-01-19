@@ -8,10 +8,13 @@
     android:background="@drawable/poster"
     tools:context=".Informationpu">
 
+
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="10dp">
+
+
 
         <ImageView
             android:onClick="backPage3"
@@ -40,7 +43,6 @@
 
     </RelativeLayout>
 
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -54,13 +56,15 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
         android:text="
-        \n          รหัส นศ. : 641102064110 \n
-        \n          ชื่อ : นายกิตติพรรณ บุญช่วย \n
-        \n          ชื่อ(Eng) : Mr.Kittipan bunchuai    \n
-        \n          คณะ : วิทยาศาสตร์และเทคโนโลยี   \n
-        \n          สาขา : วิทยาการคอมพิวเตอร์  \n
-        \n          เข้าศึกษาเมื่อปี : 1/2564"
+        \nรหัส นศ. : 641102064110 \n
+        \nชื่อ : นายกิตติพรรณ บุญช่วย \n
+        \nชื่อ(Eng) : Mr.Kittipan bunchuai    \n
+        \nคณะ : วิทยาศาสตร์และเทคโนโลยี   \n
+        \nสาขา : วิทยาการคอมพิวเตอร์  \n
+        \nเข้าศึกษาเมื่อปี : 1/2564"
 
         android:textSize="19dp"
         android:textColor="@color/black"
@@ -83,4 +87,5 @@
 
             />
     </LinearLayout>
+
 </LinearLayout>

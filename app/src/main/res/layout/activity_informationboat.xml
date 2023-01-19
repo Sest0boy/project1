@@ -54,12 +54,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="
-        \n          รหัส นศ. : 641102064112 \n
-        \n          ชื่อ : นายเด่นพิพัฒน์ สวัสดิ์ผล \n
-        \n          ชื่อ(Eng) : Mr.Denpiphat Sawadpon   \n
-        \n          คณะ : วิทยาศาสตร์และเทคโนโลยี   \n
-        \n          สาขา : วิทยาการคอมพิวเตอร์  \n
-        \n          เข้าศึกษาเมื่อปี : 1/2564"
+        \nรหัส นศ. : 641102064112 \n
+        \nชื่อ : นายเด่นพิพัฒน์ สวัสดิ์ผล \n
+        \nชื่อ(Eng) : Mr.Denpiphat Sawadpon   \n
+        \nคณะ : วิทยาศาสตร์และเทคโนโลยี   \n
+        \nสาขา : วิทยาการคอมพิวเตอร์  \n
+        \nเข้าศึกษาเมื่อปี : 1/2564"
 
         android:textSize="19dp"
         android:textColor="@color/black"

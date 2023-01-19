@@ -33,7 +33,7 @@ public class MainInformation extends AppCompatActivity {
     }
     public void NextPage1(View view){
         Button button = (Button)findViewById(R.id.btn01);
-        Intent intent = new Intent(this, Informationpu.class);
+        Intent intent = new Intent(this, Infofriend.class);
         startActivity(intent);
     }
     public void NextPage2(View view){
