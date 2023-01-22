@@ -34,7 +34,7 @@
         android:background="#30ffffff"
         android:drawableLeft="@drawable/ic_baseline_person_24"
         android:drawablePadding="20dp"
-        android:hint="รหัสนักศึกษา(USER ID)"
+        android:hint="รหัสนักศึกษา(Student ID)"
         android:padding="20dp"
         android:textColor="@color/black"
         android:textColorHint="@color/black"

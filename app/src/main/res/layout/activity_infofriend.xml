@@ -43,7 +43,7 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="1.3in"
-                android:layout_margin="5dp"
+                android:layout_margin="3dp"
                 app:cardCornerRadius="5dp"
                 app:cardElevation="5dp">
 
@@ -84,7 +84,7 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="1.3in"
-                android:layout_margin="5dp"
+                android:layout_margin="3dp"
                 app:cardCornerRadius="5dp"
                 app:cardElevation="5dp">
                 <ImageView
@@ -123,7 +123,7 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="1.3in"
-                android:layout_margin="5dp"
+                android:layout_margin="3dp"
                 app:cardCornerRadius="5dp"
                 app:cardElevation="5dp">
 
@@ -164,7 +164,7 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="1.3in"
-                android:layout_margin="5dp"
+                android:layout_margin="3dp"
                 app:cardCornerRadius="5dp"
                 app:cardElevation="5dp">
 
@@ -205,7 +205,7 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="1.3in"
-                android:layout_margin="5dp"
+                android:layout_margin="3dp"
                 app:cardCornerRadius="5dp"
                 app:cardElevation="5dp">
 
@@ -246,7 +246,7 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="1.3in"
-                android:layout_margin="5dp"
+                android:layout_margin="3dp"
                 app:cardCornerRadius="5dp"
                 app:cardElevation="5dp">
 
@@ -287,7 +287,7 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="1.3in"
-                android:layout_margin="5dp"
+                android:layout_margin="3dp"
                 app:cardCornerRadius="5dp"
                 app:cardElevation="5dp">
 
@@ -328,7 +328,7 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="1.3in"
-                android:layout_margin="5dp"
+                android:layout_margin="3dp"
                 app:cardCornerRadius="5dp"
                 app:cardElevation="5dp">
 
@@ -369,7 +369,7 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="1.3in"
-                android:layout_margin="5dp"
+                android:layout_margin="3dp"
                 app:cardCornerRadius="5dp"
                 app:cardElevation="5dp">
 
@@ -410,7 +410,7 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="1.3in"
-                android:layout_margin="5dp"
+                android:layout_margin="3dp"
                 app:cardCornerRadius="5dp"
                 app:cardElevation="5dp">
 
@@ -422,6 +422,7 @@
                     android:maxWidth="300dp"
                     android:maxHeight="300dp"
                     android:scaleType="fitCenter"
+                    android:src="@drawable/mon"
                     />
 
                 <TextView
@@ -449,7 +450,7 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="1.3in"
-                android:layout_margin="5dp"
+                android:layout_margin="3dp"
                 app:cardCornerRadius="5dp"
                 app:cardElevation="5dp">
 
@@ -489,7 +490,7 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="1.3in"
-                android:layout_margin="5dp"
+                android:layout_margin="3dp"
                 app:cardCornerRadius="5dp"
                 app:cardElevation="5dp">
 
@@ -529,7 +530,7 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="1.3in"
-                android:layout_margin="5dp"
+                android:layout_margin="3dp"
                 app:cardCornerRadius="5dp"
                 app:cardElevation="5dp">
 
@@ -568,7 +569,7 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="1.3in"
-                android:layout_margin="5dp"
+                android:layout_margin="3dp"
                 app:cardCornerRadius="5dp"
                 app:cardElevation="5dp">
 
